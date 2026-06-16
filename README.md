@@ -1,6 +1,6 @@
 # Ricci Curvature Calculator for Cayley Graphs
 
-Computes **Ollivier-type Ricci curvature** κ(e, g) on Cayley graphs of finitely generated groups,
+Computes **Lin-Lu-Yau Ricci curvature** κ(e, g) on Cayley graphs of finitely generated groups,
 based on: *Algorithm for Calculating Ricci Curvature* by Kevin Fung (May 2026).
 
 ---
@@ -27,7 +27,7 @@ All classes implement a common interface: `identity()`, `multiply(elem, gen)`, `
 
 - **`all_distances(group, S)`** — BFS all-pairs shortest-path distances on the Cayley graph.
 - **`min_matching_cost(sources, targets, dist)`** — Minimum-weight perfect matching via brute-force permutations.
-- **`ricci_curvature(group, dist, x, y, S)`** — Computes κ(x, y) using the two-case Ollivier formula.
+- **`ricci_curvature(group, dist, x, y, S)`** — Computes κ(x, y) using the two-case Lin-Lu-Yau formula.
 
 ### 3. Computation & Output
 
