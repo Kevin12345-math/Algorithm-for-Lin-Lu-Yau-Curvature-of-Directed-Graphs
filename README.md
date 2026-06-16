@@ -27,7 +27,7 @@ All classes implement a common interface: `identity()`, `multiply(elem, gen)`, `
 
 - **`all_distances(group, S)`** — BFS all-pairs shortest-path distances on the Cayley graph.
 - **`min_matching_cost(sources, targets, dist)`** — Minimum-weight perfect matching via brute-force permutations.
-- **`ricci_curvature(group, dist, x, y, S)`** — Computes κ(x, y) using the two-case Lin-Lu-Yau formula.
+- **`ricci_curvature(group, dist, x, y, S)`** — Computes κ(x, y) using the two-cases Lin-Lu-Yau formula.
 
 ### 3. Computation & Output
 
